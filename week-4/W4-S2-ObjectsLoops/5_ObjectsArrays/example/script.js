@@ -28,10 +28,10 @@ var student1 = students[0];
 console.log(student1.name + " is the first student in the array.");
 
 var student2 = students[1];
-console.log(student1.name + " is the first student in the array.");
+console.log(student1.name + " is the second student in the array.");
 
 var student3 = students[2];
-console.log(student3.name + " is the first student in the array.");
+console.log(student3.name + " is the third student in the array.");
 
 for (var i = 0; i < students.length; i++) {
   console.log(students[i].name + " is " + students[i].age + " years old.");

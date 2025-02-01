@@ -7,13 +7,13 @@ var surName = "Smith";
 var age = 25;
 var retirementAge = 67;
 
-console.log(firstName + " " + surName);
+console.log(firstName + " " + surName); //logs full name
 
-console.log(`Hello ${firstName}`);
+console.log(`Hello ${firstName}`); //logs first name
 
-console.log(firstName + " " +surName + "and I am" + age + "years old");
+console.log(firstName + " " +surName + "and I am" + ' ' + age +  ' ' + "years old"); //logs full name and age
 
-console.log(firstName + " " +surName + "and I am" + age + "years old");
+console.log('I have' + ' ' + (retirementAge - age) + ' ' + 'years until retirement'); //logs retirement age
 
 var a = 12; // stored 12 in a
 var b = 5; // stored 5 in b
@@ -38,4 +38,4 @@ console.log('These are' + ' ' + e + ' ' + c + '&' + ' ' + d) //logging in consol
 /* Solution: var = yearsUntilRetirement = retirementAge - age; */
 
 // TODO: log out "I have 42 years until retirement"
-// Solution: console.log("I have" + retirementAge - age + "years unitl retirement");
+// Solution: console.log("I have" + (retirementAge - age) + "years unitl retirement");

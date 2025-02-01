@@ -9,3 +9,5 @@ var car = {
 
 var price = car.getPrice(); // 20000
 console.log(price);
+
+console.log("The make of car is :" + car.make + " and model of car is : " + car.model + ".")
