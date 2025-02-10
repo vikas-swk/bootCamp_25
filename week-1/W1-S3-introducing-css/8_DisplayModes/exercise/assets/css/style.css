@@ -17,14 +17,17 @@ footer {
 
 /* Issue: This text is currently hidden */
 .hidden-text {
-    display: none;
+    display: inline-block;
     /* Fix this */
+    /* Issue fixed by changing display from none to inline-block */
 }
 
 /* Items are currently stacked vertically */
 .item {
-    display: block;
+    display: inline-block;
     /* Change this to allow them to be side by side */
+    /* Issue fixed by changing display from block to inline-block */
+    
     padding: 10px;
     background-color: lightgreen;
     margin: 5px;
