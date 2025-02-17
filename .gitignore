@@ -1,1 +1,2 @@
 .DS_Store
+.DS_Store # Adds .DS_Store to .gitignore
