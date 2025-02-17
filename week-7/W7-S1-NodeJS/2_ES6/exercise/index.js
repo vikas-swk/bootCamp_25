@@ -1,4 +1,4 @@
-const messages = require("./module.js");
+const messages = require("./module.js").default;
 
 const msg = messages.hello();
 const PI = messages.PI;
