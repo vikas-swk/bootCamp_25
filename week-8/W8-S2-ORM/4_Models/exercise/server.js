@@ -1,6 +1,6 @@
 // Import required packages
 const express = require("express");
-const { Sequelize } = require("sequelize");
+const { Sequelize, DataTypes } = require("sequelize");
 const bodyParser = require("body-parser");
 
 // Initialize Express application
